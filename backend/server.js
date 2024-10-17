@@ -11,8 +11,6 @@ import orderRouter from "./routes/orderRoute.js"
 // app config
 const app = express()
 dotenv.config();
-console.log('Current working directory:', process.cwd());
-console.log('Environment variables:', process.env);
 const port = 4000
 
 // middleware
